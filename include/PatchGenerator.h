@@ -3,7 +3,7 @@
 #ifndef PATCHGENERATOR_H
 #define PATCHGENERATOR_H
 
-namespace bug {
+namespace bug {//Just a joke to make us happy. You can rename it at will.
     using namespace cv;
     class PatchGenerator {
     public:
