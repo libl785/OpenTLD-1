@@ -1,0 +1,8 @@
+/media/fuzhihong/Study_data/__graduation_project/new_code4/OpenTLD/build/CMakeFiles/tld_utils.dir
+/media/fuzhihong/Study_data/__graduation_project/new_code4/OpenTLD/build/CMakeFiles/patchGenerator.dir
+/media/fuzhihong/Study_data/__graduation_project/new_code4/OpenTLD/build/CMakeFiles/LKTracker.dir
+/media/fuzhihong/Study_data/__graduation_project/new_code4/OpenTLD/build/CMakeFiles/rebuild_cache.dir
+/media/fuzhihong/Study_data/__graduation_project/new_code4/OpenTLD/build/CMakeFiles/ferNN.dir
+/media/fuzhihong/Study_data/__graduation_project/new_code4/OpenTLD/build/CMakeFiles/tld.dir
+/media/fuzhihong/Study_data/__graduation_project/new_code4/OpenTLD/build/CMakeFiles/edit_cache.dir
+/media/fuzhihong/Study_data/__graduation_project/new_code4/OpenTLD/build/CMakeFiles/run_tld.dir

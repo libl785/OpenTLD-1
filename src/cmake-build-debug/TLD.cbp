@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="TLD"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\..\..\usr\local\;CMake Files\..\..\..\..\..\..\..\usr\local\lib\;CMake Files\..\..\..\..\..\..\..\usr\local\lib\cmake\;CMake Files\..\..\..\..\..\..\..\usr\local\lib\cmake\opencv4\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/media/fuzhihong/Study_data/__graduation_project/new_code4/OpenTLD/src/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/media/fuzhihong/Study_data/__graduation_project/new_code4/OpenTLD/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/media/fuzhihong/Study_data/__graduation_project/new_code4/OpenTLD/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/media/fuzhihong/Study_data/__graduation_project/new_code4/OpenTLD/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/media/fuzhihong/Study_data/__graduation_project/new_code4/OpenTLD/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tld_utils">
+				<Option output="/media/fuzhihong/Study_data/__graduation_project/new_code4/OpenTLD/lib/libtld_utils.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/media/fuzhihong/Study_data/__graduation_project/new_code4/OpenTLD/src/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/media/fuzhihong/Study_data/__graduation_project/new_code4/OpenTLD/src/../include"/>
+					<Add directory="/usr/local/include/opencv4"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/media/fuzhihong/Study_data/__graduation_project/new_code4/OpenTLD/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 tld_utils"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/media/fuzhihong/Study_data/__graduation_project/new_code4/OpenTLD/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/media/fuzhihong/Study_data/__graduation_project/new_code4/OpenTLD/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/media/fuzhihong/Study_data/__graduation_project/new_code4/OpenTLD/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tld_utils/fast">
+				<Option output="/media/fuzhihong/Study_data/__graduation_project/new_code4/OpenTLD/lib/libtld_utils.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/media/fuzhihong/Study_data/__graduation_project/new_code4/OpenTLD/src/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/media/fuzhihong/Study_data/__graduation_project/new_code4/OpenTLD/src/../include"/>
+					<Add directory="/usr/local/include/opencv4"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/media/fuzhihong/Study_data/__graduation_project/new_code4/OpenTLD/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 tld_utils/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/media/fuzhihong/Study_data/__graduation_project/new_code4/OpenTLD/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/media/fuzhihong/Study_data/__graduation_project/new_code4/OpenTLD/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/media/fuzhihong/Study_data/__graduation_project/new_code4/OpenTLD/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="patchGenerator">
+				<Option output="/media/fuzhihong/Study_data/__graduation_project/new_code4/OpenTLD/lib/libpatchGenerator.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/media/fuzhihong/Study_data/__graduation_project/new_code4/OpenTLD/src/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/media/fuzhihong/Study_data/__graduation_project/new_code4/OpenTLD/src/../include"/>
+					<Add directory="/usr/local/include/opencv4"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/media/fuzhihong/Study_data/__graduation_project/new_code4/OpenTLD/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 patchGenerator"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/media/fuzhihong/Study_data/__graduation_project/new_code4/OpenTLD/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/media/fuzhihong/Study_data/__graduation_project/new_code4/OpenTLD/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/media/fuzhihong/Study_data/__graduation_project/new_code4/OpenTLD/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="patchGenerator/fast">
+				<Option output="/media/fuzhihong/Study_data/__graduation_project/new_code4/OpenTLD/lib/libpatchGenerator.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/media/fuzhihong/Study_data/__graduation_project/new_code4/OpenTLD/src/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/media/fuzhihong/Study_data/__graduation_project/new_code4/OpenTLD/src/../include"/>
+					<Add directory="/usr/local/include/opencv4"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/media/fuzhihong/Study_data/__graduation_project/new_code4/OpenTLD/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 patchGenerator/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/media/fuzhihong/Study_data/__graduation_project/new_code4/OpenTLD/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/media/fuzhihong/Study_data/__graduation_project/new_code4/OpenTLD/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/media/fuzhihong/Study_data/__graduation_project/new_code4/OpenTLD/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="LKTracker">
+				<Option output="/media/fuzhihong/Study_data/__graduation_project/new_code4/OpenTLD/lib/libLKTracker.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/media/fuzhihong/Study_data/__graduation_project/new_code4/OpenTLD/src/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/media/fuzhihong/Study_data/__graduation_project/new_code4/OpenTLD/src/../include"/>
+					<Add directory="/usr/local/include/opencv4"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/media/fuzhihong/Study_data/__graduation_project/new_code4/OpenTLD/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 LKTracker"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/media/fuzhihong/Study_data/__graduation_project/new_code4/OpenTLD/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/media/fuzhihong/Study_data/__graduation_project/new_code4/OpenTLD/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/media/fuzhihong/Study_data/__graduation_project/new_code4/OpenTLD/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="LKTracker/fast">
+				<Option output="/media/fuzhihong/Study_data/__graduation_project/new_code4/OpenTLD/lib/libLKTracker.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/media/fuzhihong/Study_data/__graduation_project/new_code4/OpenTLD/src/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/media/fuzhihong/Study_data/__graduation_project/new_code4/OpenTLD/src/../include"/>
+					<Add directory="/usr/local/include/opencv4"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/media/fuzhihong/Study_data/__graduation_project/new_code4/OpenTLD/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 LKTracker/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/media/fuzhihong/Study_data/__graduation_project/new_code4/OpenTLD/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/media/fuzhihong/Study_data/__graduation_project/new_code4/OpenTLD/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/media/fuzhihong/Study_data/__graduation_project/new_code4/OpenTLD/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/media/fuzhihong/Study_data/__graduation_project/new_code4/OpenTLD/src/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/media/fuzhihong/Study_data/__graduation_project/new_code4/OpenTLD/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/media/fuzhihong/Study_data/__graduation_project/new_code4/OpenTLD/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/media/fuzhihong/Study_data/__graduation_project/new_code4/OpenTLD/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/media/fuzhihong/Study_data/__graduation_project/new_code4/OpenTLD/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ferNN">
+				<Option output="/media/fuzhihong/Study_data/__graduation_project/new_code4/OpenTLD/lib/libferNN.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/media/fuzhihong/Study_data/__graduation_project/new_code4/OpenTLD/src/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/media/fuzhihong/Study_data/__graduation_project/new_code4/OpenTLD/src/../include"/>
+					<Add directory="/usr/local/include/opencv4"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/media/fuzhihong/Study_data/__graduation_project/new_code4/OpenTLD/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 ferNN"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/media/fuzhihong/Study_data/__graduation_project/new_code4/OpenTLD/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/media/fuzhihong/Study_data/__graduation_project/new_code4/OpenTLD/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/media/fuzhihong/Study_data/__graduation_project/new_code4/OpenTLD/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ferNN/fast">
+				<Option output="/media/fuzhihong/Study_data/__graduation_project/new_code4/OpenTLD/lib/libferNN.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/media/fuzhihong/Study_data/__graduation_project/new_code4/OpenTLD/src/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/media/fuzhihong/Study_data/__graduation_project/new_code4/OpenTLD/src/../include"/>
+					<Add directory="/usr/local/include/opencv4"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/media/fuzhihong/Study_data/__graduation_project/new_code4/OpenTLD/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 ferNN/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/media/fuzhihong/Study_data/__graduation_project/new_code4/OpenTLD/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/media/fuzhihong/Study_data/__graduation_project/new_code4/OpenTLD/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/media/fuzhihong/Study_data/__graduation_project/new_code4/OpenTLD/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tld">
+				<Option output="/media/fuzhihong/Study_data/__graduation_project/new_code4/OpenTLD/lib/libtld.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/media/fuzhihong/Study_data/__graduation_project/new_code4/OpenTLD/src/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/media/fuzhihong/Study_data/__graduation_project/new_code4/OpenTLD/src/../include"/>
+					<Add directory="/usr/local/include/opencv4"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/media/fuzhihong/Study_data/__graduation_project/new_code4/OpenTLD/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 tld"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/media/fuzhihong/Study_data/__graduation_project/new_code4/OpenTLD/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/media/fuzhihong/Study_data/__graduation_project/new_code4/OpenTLD/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/media/fuzhihong/Study_data/__graduation_project/new_code4/OpenTLD/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tld/fast">
+				<Option output="/media/fuzhihong/Study_data/__graduation_project/new_code4/OpenTLD/lib/libtld.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/media/fuzhihong/Study_data/__graduation_project/new_code4/OpenTLD/src/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/media/fuzhihong/Study_data/__graduation_project/new_code4/OpenTLD/src/../include"/>
+					<Add directory="/usr/local/include/opencv4"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/media/fuzhihong/Study_data/__graduation_project/new_code4/OpenTLD/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 tld/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/media/fuzhihong/Study_data/__graduation_project/new_code4/OpenTLD/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/media/fuzhihong/Study_data/__graduation_project/new_code4/OpenTLD/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/media/fuzhihong/Study_data/__graduation_project/new_code4/OpenTLD/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/media/fuzhihong/Study_data/__graduation_project/new_code4/OpenTLD/src/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/media/fuzhihong/Study_data/__graduation_project/new_code4/OpenTLD/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/media/fuzhihong/Study_data/__graduation_project/new_code4/OpenTLD/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/media/fuzhihong/Study_data/__graduation_project/new_code4/OpenTLD/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/media/fuzhihong/Study_data/__graduation_project/new_code4/OpenTLD/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="run_tld">
+				<Option output="/media/fuzhihong/Study_data/__graduation_project/new_code4/OpenTLD/bin/run_tld" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/media/fuzhihong/Study_data/__graduation_project/new_code4/OpenTLD/src/../bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/media/fuzhihong/Study_data/__graduation_project/new_code4/OpenTLD/src/../include"/>
+					<Add directory="/usr/local/include/opencv4"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/media/fuzhihong/Study_data/__graduation_project/new_code4/OpenTLD/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 run_tld"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/media/fuzhihong/Study_data/__graduation_project/new_code4/OpenTLD/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/media/fuzhihong/Study_data/__graduation_project/new_code4/OpenTLD/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/media/fuzhihong/Study_data/__graduation_project/new_code4/OpenTLD/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="run_tld/fast">
+				<Option output="/media/fuzhihong/Study_data/__graduation_project/new_code4/OpenTLD/bin/run_tld" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/media/fuzhihong/Study_data/__graduation_project/new_code4/OpenTLD/src/../bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/media/fuzhihong/Study_data/__graduation_project/new_code4/OpenTLD/src/../include"/>
+					<Add directory="/usr/local/include/opencv4"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/media/fuzhihong/Study_data/__graduation_project/new_code4/OpenTLD/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 run_tld/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/media/fuzhihong/Study_data/__graduation_project/new_code4/OpenTLD/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/media/fuzhihong/Study_data/__graduation_project/new_code4/OpenTLD/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/media/fuzhihong/Study_data/__graduation_project/new_code4/OpenTLD/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/media/fuzhihong/Study_data/__graduation_project/new_code4/OpenTLD/src/FerNNClassifier.cpp">
+			<Option target="ferNN"/>
+		</Unit>
+		<Unit filename="/media/fuzhihong/Study_data/__graduation_project/new_code4/OpenTLD/src/LKTracker.cpp">
+			<Option target="LKTracker"/>
+		</Unit>
+		<Unit filename="/media/fuzhihong/Study_data/__graduation_project/new_code4/OpenTLD/src/PatchGenerator.cpp">
+			<Option target="patchGenerator"/>
+		</Unit>
+		<Unit filename="/media/fuzhihong/Study_data/__graduation_project/new_code4/OpenTLD/src/TLD.cpp">
+			<Option target="tld"/>
+		</Unit>
+		<Unit filename="/media/fuzhihong/Study_data/__graduation_project/new_code4/OpenTLD/src/run_tld.cpp">
+			<Option target="run_tld"/>
+		</Unit>
+		<Unit filename="/media/fuzhihong/Study_data/__graduation_project/new_code4/OpenTLD/src/tld_utils.cpp">
+			<Option target="tld_utils"/>
+		</Unit>
+		<Unit filename="/media/fuzhihong/Study_data/__graduation_project/new_code4/OpenTLD/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/media/fuzhihong/Study_data/__graduation_project/new_code4/OpenTLD/src/../../../../../../../usr/local/lib/cmake/opencv4/OpenCVConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\local\lib\cmake\opencv4\"/>
+		</Unit>
+		<Unit filename="/media/fuzhihong/Study_data/__graduation_project/new_code4/OpenTLD/src/../../../../../../../usr/local/lib/cmake/opencv4/OpenCVConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\local\lib\cmake\opencv4\"/>
+		</Unit>
+		<Unit filename="/media/fuzhihong/Study_data/__graduation_project/new_code4/OpenTLD/src/../../../../../../../usr/local/lib/cmake/opencv4/OpenCVModules-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\local\lib\cmake\opencv4\"/>
+		</Unit>
+		<Unit filename="/media/fuzhihong/Study_data/__graduation_project/new_code4/OpenTLD/src/../../../../../../../usr/local/lib/cmake/opencv4/OpenCVModules.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\local\lib\cmake\opencv4\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

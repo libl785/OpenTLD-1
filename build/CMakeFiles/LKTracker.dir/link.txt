@@ -1,0 +1,2 @@
+/usr/bin/ar qc /media/fuzhihong/Study_data/__graduation_project/new_code4/OpenTLD/lib/libLKTracker.a  CMakeFiles/LKTracker.dir/LKTracker.o
+/usr/bin/ranlib /media/fuzhihong/Study_data/__graduation_project/new_code4/OpenTLD/lib/libLKTracker.a
