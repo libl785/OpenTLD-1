@@ -17,19 +17,29 @@ make
 cd ../bin/
 ```
 * To run from camera
-> `./run_tld -p ../parameters.yml`
+```
+./run_tld -p ../parameters.yml
+```
 
 * To run from file
-> `./run_tld -p ../parameters.yml -s ../datasets/06_car/car.mpg`
+```
+./run_tld -p ../parameters.yml -s ../datasets/06_car/car.mpg
+```
 
 * To init bounding box from file
-> `./run_tld -p ../parameters.yml -s ../datasets/06_car/car.mpg -b ../datasets/06_car/init.txt`
+```
+./run_tld -p ../parameters.yml -s ../datasets/06_car/car.mpg -b ../datasets/06_car/init.txt
+```
 
 * To train only in the firs frame (no tracking, no learning)
-> `./run_tld -p ../parameters.yml -s ../datasets/06_car/car.mpg -b ../datasets/06_car/init.txt -no_tl `
+```
+./run_tld -p ../parameters.yml -s ../datasets/06_car/car.mpg -b ../datasets/06_car/init.txt -no_tl
+```
 
 * To test the final detector (Repeat the video, first time learns, second time detects)
-> `./run_tld -p ../parameters.yml -s ../datasets/06_car/car.mpg -b ../datasets/06_car/init.txt -r`
+```
+./run_tld -p ../parameters.yml -s ../datasets/06_car/car.mpg -b ../datasets/06_car/init.txt -r
+```
 
 # Evaluation
 The output of the program is a file called bounding_boxes.txt which contains all the detections made through the video. This file should be compared with the ground truth file to evaluate the performance of the algorithm. This is done using a python script:
