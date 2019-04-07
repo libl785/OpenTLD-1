@@ -1,6 +1,6 @@
 # Supplement description
-* This project was cloned from [here](https://github.com/alantrrs/OpenTLD). My main work in here is make it runnable in the OpenCV environment version 3.0 or higher. Actually, I only added `PatchGenerator.h` file and `PatchGenerator.cpp` file in this project.
-* The following description is origin text.
+* This project was cloned from [here](https://github.com/alantrrs/OpenTLD). My main work in here is make it runnable in the OpenCV environment version 3.0 or higher. Actually, I only added the `PatchGenerator.h` and the `PatchGenerator.cpp` into this project.
+* The following is the original.
 
 # Description
 * This will be a C++ implementations of the OpenTLD (aka Predator)
